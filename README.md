@@ -4,4 +4,4 @@
 
 # Installation
 
-##### Run `python main.py [GAMENAME]` in terminal. `[GAMENAME]` must be case-sensitive (currently trying to develop a workaround for games with special characters in their titles). 
+##### The `Requests` and `bs` modules must be installed before you can run `python main.py [GAMENAME]` in terminal. `[GAMENAME]` must be case-sensitive (currently trying to develop a workaround for games with special characters in their titles). 

@@ -67,8 +67,8 @@ while __name__ == "__main__":
         store_link = get_link(GAME_NAME)
 
         while store_link is None:
-            print("Game not found.\n")
+            print("\nGame not found.\n")
             GAME_NAME = input("Enter game title to search (case-sensitive): ")
             store_link = get_link(GAME_NAME)
 
-        search_game(store_link)
+    search_game(store_link)
